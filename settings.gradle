@@ -1,0 +1,15 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "C09-Dialog"
+include ':app'
+include ':0901_DatePickerDlg'
+include ':09-02 AlertDialog'
+include ':0903_ProgressDialog'
+include ':0904_ProgressDialog_OnShake'
+include ':0905_LoginDialog'

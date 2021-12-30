@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android-work/C09Dialog/09-02 AlertDialog/src/main/res/layout/m0902.xml" value="0.5" />
+        <entry key="..\:/android-work/C09Dialog/0901_DatePickerDlg/src/main/res/layout/m0901.xml" value="0.2869791666666667" />
+        <entry key="..\:/android-work/C09Dialog/0903_ProgressDialog/src/main/res/layout/m0903.xml" value="0.33" />
+        <entry key="..\:/android-work/C09Dialog/0904_ProgressDialog_OnShake/src/main/res/layout/m0904.xml" value="0.2869791666666667" />
+        <entry key="..\:/android-work/C09Dialog/0905_LoginDialog/src/main/res/layout/login_dlg.xml" value="0.2869791666666667" />
+        <entry key="..\:/android-work/C09Dialog/0905_LoginDialog/src/main/res/layout/m0905.xml" value="0.2869791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

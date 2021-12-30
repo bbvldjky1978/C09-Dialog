@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="@dimen/pa01"
+    tools:context=".M0901"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/m0901_b001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fontsize30"
+        android:background="@android:drawable/btn_default"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/m0901_b001"
+        android:textAllCaps="false"
+        android:textSize="@dimen/fontsize"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/m0901_b002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fontsize30"
+        android:background="@android:drawable/btn_default"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/m0901_b002"
+        android:textAllCaps="false"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/m0901_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m0901_t001"
+        android:textColor="@color/Lime"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="bottom|end"
+        android:text="@string/myname"
+        android:textColor="@color/Yellow"
+        android:textSize="@dimen/fontsize" />
+
+</LinearLayout>

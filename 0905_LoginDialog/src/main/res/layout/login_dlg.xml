@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/Silver"
+    android:orientation="vertical"
+    android:padding="@dimen/Spacing">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black"
+        android:text="@string/title"
+        android:textAlignment="textStart"
+        android:textColor="@color/Yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/m0905_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/m0905_t001"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:backgroundTint="#FFEB3B"
+        android:backgroundTintMode="multiply"
+        android:hint="@string/m0905_t001"
+        android:inputType="text"
+        android:labelFor="@+id/RelativeLayout1"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m0905_t001"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/m0905_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/m0905_t002"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUserName" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:backgroundTint="#FFEB3B"
+        android:hint="@string/m0905_t002"
+        android:inputType="textPassword"
+        android:labelFor="@id/m0905_t002"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m0905_t002"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/m0905_btnOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/login"
+        android:text="@string/m0905_btnOK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+    <Button
+        android:id="@+id/m0905_btnCancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/m0905_btnCancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/m0905_btnOK"
+        app:layout_constraintStart_toEndOf="@+id/m0905_btnOK"
+        app:layout_constraintTop_toTopOf="@+id/m0905_btnOK" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
